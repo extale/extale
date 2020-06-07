@@ -1,0 +1,31 @@
+{
+    "name": "exhum4n/symfony",
+    "authors": [
+        {
+            "name": "exhum4n",
+            "email": "exhum4n.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "symfony/http-kernel": "^5.1",
+        "symfony/http-foundation": "^5.1",
+        "vlucas/phpdotenv": "^4.1",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "5.1.0",
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Ex\\Lucida\\": "packages/exhum4n/lucida/src/",
+            "Ex\\Configuration\\": "packages/exhum4n/configuration/src/",
+            "Components\\": "app/Components/"
+        },
+        "files": [
+            "packages/exhum4n/lucida/src/Support/Helpers/app.php"
+        ]
+    }
+}
