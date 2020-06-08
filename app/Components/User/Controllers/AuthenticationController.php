@@ -2,8 +2,8 @@
 
 namespace App\Components\User\Controllers;
 
-use Ex\Lucida\Core\Http\Requests\Request;
-use Ex\Lucida\Core\Http\Responses\Response;
+use Hooina\Http\Requests\Request;
+use Hooina\Http\Responses\Response;
 
 class AuthenticationController
 {

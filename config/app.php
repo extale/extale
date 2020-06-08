@@ -12,12 +12,12 @@ return [
     ],
 
     'builders' => [
-        'application' => Ex\Lucida\Core\Builders\ApplicationBuilder::class,
-        'kernel' => Ex\Lucida\Core\Http\Builders\KernelBuilder::class,
-        'request' => Ex\Lucida\Core\Http\Requests\Builders\RequestBuilder::class,
-        'request_receiver' => Ex\Lucida\Core\Http\Requests\Builders\RequestReceiverBuilder::class,
-        'route' => Ex\Lucida\Core\Http\Routes\Builders\RouteBuilder::class,
-        'route_receiver' => Ex\Lucida\Core\Http\Routes\Builders\RouteReceiverBuilder::class
+        'application' => Hooina\Core\Builders\ApplicationBuilder::class,
+        'kernel' => Hooina\Http\Builders\KernelBuilder::class,
+        'request' => Hooina\Http\Requests\Builders\RequestBuilder::class,
+        'request_receiver' => Hooina\Http\Requests\Builders\RequestReceiverBuilder::class,
+        'route' => Hooina\Http\Routes\Builders\RouteBuilder::class,
+        'route_receiver' => Hooina\Http\Routes\Builders\RouteReceiverBuilder::class
     ],
 
     'aliases' => [

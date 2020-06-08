@@ -4,9 +4,9 @@
 
 require_once __DIR__ . '/../bootstrap/app.php';
 
-$configLoader = new Ex\Configuration\Loader(CONFIG_FOLDER);
+$configLoader = new Hooina\Configuration\ConfigurationLoader(CONFIG_FOLDER);
 
-$app = (new Ex\Lucida\Core\Builders\ApplicationBuilder(BASE_PATH, $configLoader->getConfig('app')))->produce();
+$app = (new Hooina\Core\Builders\ApplicationBuilder(BASE_PATH, $configLoader->getConfig('app')))->produce();
 
 $kernel = $app->build('kernel', [
     BASE_PATH,

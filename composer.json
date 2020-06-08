@@ -1,5 +1,6 @@
 {
-    "name": "exhum4n/symfony",
+    "name": "extale/extale",
+    "description": "PHP API framework",
     "authors": [
         {
             "name": "exhum4n",
@@ -11,7 +12,8 @@
         "symfony/http-kernel": "^5.1",
         "symfony/http-foundation": "^5.1",
         "vlucas/phpdotenv": "^4.1",
-        "ext-json": "*"
+        "ext-json": "*",
+        "extale/framework": "dev-master"
     },
     "require-dev": {
         "symfony/var-dumper": "5.1.0",
@@ -20,12 +22,10 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Ex\\Lucida\\": "packages/exhum4n/lucida/src/",
-            "Ex\\Configuration\\": "packages/exhum4n/configuration/src/",
             "Components\\": "app/Components/"
         },
         "files": [
-            "packages/exhum4n/lucida/src/Support/Helpers/app.php"
+            "vendor/extale/framework/src/Hooina/Core/Helpers/app.php"
         ]
     }
 }

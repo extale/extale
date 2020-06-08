@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use Ex\Lucida\Core\Providers\Provider;
+use Hooina\Core\Providers\Provider;
 
 class ServiceProvider extends Provider
 {
