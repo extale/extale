@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/extale/extale.svg?branch=master)](https://travis-ci.org/github/extail/extail)
-[![Latest Stable Version](https://poser.pugx.org/extale/extale/v)](//packagist.org/packages/extale/extale)
-[![Total Downloads](https://poser.pugx.org/extale/extale/downloads)](//packagist.org/packages/extale/extale)
-[![License](https://poser.pugx.org/extale/extale/license)](//packagist.org/packages/extale/extale)
+[![Latest Stable Version](https://poser.pugx.org/extale/extale/v)](https://packagist.org/packages/extale/extale)
+[![Total Downloads](https://poser.pugx.org/extale/extale/downloads)](https://packagist.org/packages/extale/extale)
+[![License](https://poser.pugx.org/extale/framework/license)](https://packagist.org/packages/extale/framework)
 
 ## Description
 
@@ -34,7 +34,7 @@ This section provides a high-level quick start guide.
 1. Open your terminal console.
 2. Run git clone command from Terminal:
 
-        git clone git@github.com:extail/extail.git
+        git clone https://github.com/extale/extale.git
 
 3. Enter to project folder:
 
