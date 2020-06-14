@@ -6,12 +6,9 @@ require_once __DIR__ . '/../bootstrap/app.php';
 
 $configLoader = new Hooina\Configuration\ConfigurationLoader(CONFIG_FOLDER);
 
-$app = (new Hooina\Core\Builders\ApplicationBuilder(BASE_PATH, $configLoader->getConfig('app')))->produce();
+$app = Hooina\Core\Application::getInstance()->create(BASE_PATH, $configLoader->getConfig('app'));
 
-$kernel = $app->build('kernel', [
-    BASE_PATH,
-    $configLoader->getConfig('http')
-]);
+$kernel = (new Hooina\Http\Factory\KernelFactory())->create($configLoader->getConfig('http'));
 
 $response = $kernel->handle();
 

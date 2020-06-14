@@ -2,24 +2,18 @@
 
 namespace App\Components\User\Controllers;
 
-use Hooina\Http\Requests\Request;
+use App\Components\User\Controllers\Requests\AuthenticationRequest;
+use Hooina\Http\Controller\Controller;
 use Hooina\Http\Responses\Response;
 
-class AuthenticationController
+class AuthenticationController extends Controller
 {
-    public function authentication(Request $request): Response
+    public function authentication(AuthenticationRequest $request): Response
     {
         return response([
             'status' => 'success',
-            'method' => 'authentication'
-        ]);
-    }
-
-    public function show(Request $request): Response
-    {
-        return response([
-            'status' => 'success',
-            'method' => 'show'
+            'method' => 'authentication',
+            'request' => $request->getParameters()
         ]);
     }
 }

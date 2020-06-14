@@ -1,6 +1,6 @@
 {
     "name": "extale/extale",
-    "description": "PHP API framework",
+    "description": "The Extale framework project",
     "authors": [
         {
             "name": "exhum4n",
@@ -9,8 +9,7 @@
     ],
     "require": {
         "php": "^7.4",
-        "extale/framework": "dev-master",
-        "symfony/http-foundation": "^5.1",
+        "packages/extale/framework": "1.*",
         "vlucas/phpdotenv": "^4.1",
         "ext-json": "*"
     },

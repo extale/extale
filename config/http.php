@@ -1,5 +1,7 @@
 <?php
 
 return [
-    'routes_path' => env('ROUTES_PATH', BASE_PATH . '/routes/api.php')
+    'routes_path' => BASE_PATH . '/routes/api.php',
+
+    'validator' => new Hooina\Validation\Factory\ValidatorFactory()
 ];
