@@ -5,9 +5,7 @@
 
 ## Description
 
-Larapi is template for creating projects based on laravel framework v7. 
-An easy setup the project will save your time. For project environment it uses the docker.
-Folders structure was changed for optimize work process, now all look like modules stored in `./app` folder.
+Little framework for creating project using REST API as main interface.
 
 ### Project environment
 
@@ -20,7 +18,7 @@ This section provides a high-level quick start guide.
 
 ### Requirements
 
-- [Git](https://git-scm.com/): version 2.26 or higher.
+- [Git](https://git-scm.com/) version 2.26 or higher.
     [Installation guide](https://git-scm.com/book/en/v2)
 - [Docker](https://docs.docker.com/engine/) version 19.03 or higher.
     [Installation guide](https://docs.docker.com/engine/install/)
@@ -38,7 +36,7 @@ This section provides a high-level quick start guide.
 
 3. Enter to project folder:
 
-        cd extail
+        cd extale
         
 4. For install a project:
 
