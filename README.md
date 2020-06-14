@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/extale/extale.svg?branch=master)](https://travis-ci.org/github/extail/extail)
 [![Latest Stable Version](https://poser.pugx.org/extale/extale/v)](https://packagist.org/packages/extale/extale)
 [![Total Downloads](https://poser.pugx.org/extale/extale/downloads)](https://packagist.org/packages/extale/extale)
-[![License](https://poser.pugx.org/extale/framework/license)](https://packagist.org/packages/extale/framework)
+[![License](https://poser.pugx.org/extale/extale/license)](https://packagist.org/packages/extale/extale)
 
 ## Description
 
